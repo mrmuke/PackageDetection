@@ -22,5 +22,5 @@
   -->
 
 <resources>
-	<string name="app_name">OPpenCV with UVC</string>
+	<string name="app_name">Package Detection</string>
 </resources>

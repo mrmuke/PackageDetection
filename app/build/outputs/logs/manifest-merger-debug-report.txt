@@ -1,0 +1,204 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml:2:1-28:12
+MERGED from [:opencv] /Users/mrmuke/coding/OpenCVwithUVC/opencv/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/fede1f66cd395620f31eb504f47da494/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [:libuvccamera] /Users/mrmuke/coding/OpenCVwithUVC/libuvccamera/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:1-33:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/7575645f9d1a3af4256e47895613b6df/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.serenegiant:common:2.5.1] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/c23f79de6b59660698706f5f065e7532/jetified-common-2.5.1/AndroidManifest.xml:2:1-11:12
+MERGED from [:usbCameraCommon-release] /Users/mrmuke/coding/OpenCVwithUVC/usbCameraCommon-release/build/.transforms/38585b8949eadb6e22b38e0709819ed0/jetified-usbCameraCommon-release/AndroidManifest.xml:24:1-32:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/0ccf7d1f41f08a9fbac49eb844da8039/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/935c1eb103e362446c63f75dbc889f07/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/5b60f36a8799dbd1aa3cf6f44e4b9152/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/e85cfa7e2cda2aed14b052d89a3150e9/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/9d4053b57d170770335ff225b77d62ba/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/142e93d95da0344235eb82ee7f05a108/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/b437c8e4cf053fd87bc8836cb75ffd62/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/bdfbb38555a741f74d62c90cf85e0b35/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/a8f36a69659c55a007f35cfecb9dcfc6/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/7b541f4196cf846f7dd467165838e072/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/715ac09ebebe6f055fd8c27935b09c71/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/24a7c4b656e8849fce6b1ec879de45c1/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/39bc12f0ae9182a12820380de3eccf45/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/30364a4e1d148d54a282aaa580ec2e4d/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/dcd86c4e1bc7b82faa13cfa95eb5ce30/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/b92201a39ca35c5371c82710bc662dc7/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/d38c28a7a4bd66deb92fbaacca82413e/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/18aae0e1403cb9536d945989108c14a5/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/80f58724caaf330e74c3000cc6797977/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/85bbcabe709b3efb54d74d18f7977a81/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/94115104efb23786ea53cd1a51dde3af/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/eb25aa6fb92793269536cebf4ca0a993/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/cbfdfe08c267cf71c6eae9047a7b16ca/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/335a1a6eb49eac2eab041286c81584a5/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/884715ee5d4759e99f0bf4b3058e7279/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/9b14025540e1c0e0278fee415366684e/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/3e9337dfc055970a9422bc379c54bdcb/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/48eb1e8d8b8ad7006b2f3cf24b65d608/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/31a15a162cd7bb718e862c0cc13bfa61/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/af090a78eaea8296976d6555a3a135f2/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/4277c449ae4e7defb11901a027a49277/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml:2:1-28:12
+	package
+		ADDED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml:3:5-44
+		INJECTED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml:2:1-28:12
+		INJECTED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml:2:1-28:12
+		INJECTED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml:5:2-67
+	android:name
+		ADDED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml:5:19-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml:6:2-77
+	android:name
+		ADDED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml:6:19-75
+uses-feature#0x00030000
+ADDED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml:9:2-75
+	android:glEsVersion
+		ADDED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml:9:16-48
+	android:required
+		ADDED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml:9:49-72
+uses-feature#android.hardware.usb.host
+ADDED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml:10:2-82
+	android:required
+		ADDED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml:10:57-80
+	android:name
+		ADDED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml:10:16-56
+application
+ADDED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml:12:2-26:16
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/fede1f66cd395620f31eb504f47da494/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/fede1f66cd395620f31eb504f47da494/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.1.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/80f58724caaf330e74c3000cc6797977/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/80f58724caaf330e74c3000cc6797977/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/94115104efb23786ea53cd1a51dde3af/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/94115104efb23786ea53cd1a51dde3af/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/80f58724caaf330e74c3000cc6797977/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml:17:3-29
+	android:label
+		ADDED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml:15:3-35
+	android:roundIcon
+		ADDED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml:16:3-48
+	android:icon
+		ADDED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml:14:3-37
+	android:allowBackup
+		ADDED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml:13:3-29
+	android:theme
+		ADDED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml:18:3-47
+activity#com.serenegiant.opencvwithuvc.MainActivity
+ADDED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml:19:3-25:14
+	android:name
+		ADDED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml:19:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml:20:4-24:20
+action#android.intent.action.MAIN
+ADDED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml:21:5-56
+	android:name
+		ADDED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml:21:13-54
+category#android.intent.category.LAUNCHER
+ADDED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml:23:5-64
+	android:name
+		ADDED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml:23:15-62
+uses-sdk
+INJECTED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml
+MERGED from [:opencv] /Users/mrmuke/coding/OpenCVwithUVC/opencv/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:opencv] /Users/mrmuke/coding/OpenCVwithUVC/opencv/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/fede1f66cd395620f31eb504f47da494/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/fede1f66cd395620f31eb504f47da494/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [:libuvccamera] /Users/mrmuke/coding/OpenCVwithUVC/libuvccamera/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:5-31:41
+MERGED from [:libuvccamera] /Users/mrmuke/coding/OpenCVwithUVC/libuvccamera/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:5-31:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/7575645f9d1a3af4256e47895613b6df/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/7575645f9d1a3af4256e47895613b6df/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.serenegiant:common:2.5.1] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/c23f79de6b59660698706f5f065e7532/jetified-common-2.5.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.serenegiant:common:2.5.1] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/c23f79de6b59660698706f5f065e7532/jetified-common-2.5.1/AndroidManifest.xml:7:5-9:41
+MERGED from [:usbCameraCommon-release] /Users/mrmuke/coding/OpenCVwithUVC/usbCameraCommon-release/build/.transforms/38585b8949eadb6e22b38e0709819ed0/jetified-usbCameraCommon-release/AndroidManifest.xml:28:5-30:41
+MERGED from [:usbCameraCommon-release] /Users/mrmuke/coding/OpenCVwithUVC/usbCameraCommon-release/build/.transforms/38585b8949eadb6e22b38e0709819ed0/jetified-usbCameraCommon-release/AndroidManifest.xml:28:5-30:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/0ccf7d1f41f08a9fbac49eb844da8039/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/0ccf7d1f41f08a9fbac49eb844da8039/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/935c1eb103e362446c63f75dbc889f07/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/935c1eb103e362446c63f75dbc889f07/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/5b60f36a8799dbd1aa3cf6f44e4b9152/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/5b60f36a8799dbd1aa3cf6f44e4b9152/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/e85cfa7e2cda2aed14b052d89a3150e9/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/e85cfa7e2cda2aed14b052d89a3150e9/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/9d4053b57d170770335ff225b77d62ba/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/9d4053b57d170770335ff225b77d62ba/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/142e93d95da0344235eb82ee7f05a108/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/142e93d95da0344235eb82ee7f05a108/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/b437c8e4cf053fd87bc8836cb75ffd62/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/b437c8e4cf053fd87bc8836cb75ffd62/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/bdfbb38555a741f74d62c90cf85e0b35/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/bdfbb38555a741f74d62c90cf85e0b35/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/a8f36a69659c55a007f35cfecb9dcfc6/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/a8f36a69659c55a007f35cfecb9dcfc6/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/7b541f4196cf846f7dd467165838e072/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/7b541f4196cf846f7dd467165838e072/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/715ac09ebebe6f055fd8c27935b09c71/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/715ac09ebebe6f055fd8c27935b09c71/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/24a7c4b656e8849fce6b1ec879de45c1/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/24a7c4b656e8849fce6b1ec879de45c1/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/39bc12f0ae9182a12820380de3eccf45/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/39bc12f0ae9182a12820380de3eccf45/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/30364a4e1d148d54a282aaa580ec2e4d/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/30364a4e1d148d54a282aaa580ec2e4d/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/dcd86c4e1bc7b82faa13cfa95eb5ce30/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/dcd86c4e1bc7b82faa13cfa95eb5ce30/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/b92201a39ca35c5371c82710bc662dc7/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/b92201a39ca35c5371c82710bc662dc7/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/d38c28a7a4bd66deb92fbaacca82413e/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/d38c28a7a4bd66deb92fbaacca82413e/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/18aae0e1403cb9536d945989108c14a5/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/18aae0e1403cb9536d945989108c14a5/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/80f58724caaf330e74c3000cc6797977/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/80f58724caaf330e74c3000cc6797977/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/85bbcabe709b3efb54d74d18f7977a81/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/85bbcabe709b3efb54d74d18f7977a81/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/94115104efb23786ea53cd1a51dde3af/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/94115104efb23786ea53cd1a51dde3af/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/eb25aa6fb92793269536cebf4ca0a993/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/eb25aa6fb92793269536cebf4ca0a993/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/cbfdfe08c267cf71c6eae9047a7b16ca/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/cbfdfe08c267cf71c6eae9047a7b16ca/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/335a1a6eb49eac2eab041286c81584a5/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/335a1a6eb49eac2eab041286c81584a5/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/884715ee5d4759e99f0bf4b3058e7279/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/884715ee5d4759e99f0bf4b3058e7279/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/9b14025540e1c0e0278fee415366684e/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/9b14025540e1c0e0278fee415366684e/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/3e9337dfc055970a9422bc379c54bdcb/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/3e9337dfc055970a9422bc379c54bdcb/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/48eb1e8d8b8ad7006b2f3cf24b65d608/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/48eb1e8d8b8ad7006b2f3cf24b65d608/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/31a15a162cd7bb718e862c0cc13bfa61/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/31a15a162cd7bb718e862c0cc13bfa61/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/af090a78eaea8296976d6555a3a135f2/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/af090a78eaea8296976d6555a3a135f2/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/4277c449ae4e7defb11901a027a49277/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/mrmuke/.gradle/caches/transforms-2/files-2.1/4277c449ae4e7defb11901a027a49277/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mrmuke/coding/OpenCVwithUVC/app/src/main/AndroidManifest.xml

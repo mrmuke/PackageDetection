@@ -29,12 +29,12 @@ dependencies {
 	implementation 'com.android.support.constraint:constraint-layout:1.1.2'
 	testImplementation 'junit:junit:4.12'
 
-	implementation "com.android.support:support-annotations:${supportLibVersion}"
+	implementation 'androidx.appcompat:appcompat:1.1.0'
 	implementation("com.serenegiant:common:${commonLibVersion}") {
 		exclude module: 'support-v4'
 	}
 
 	implementation project(':opencv')
 	implementation project(':usbCameraCommon-release')
-	implementation project(':libuvccamera-release')
+	implementation project(':libuvccamera')
 }

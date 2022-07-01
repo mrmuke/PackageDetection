@@ -50,7 +50,7 @@ APP_CPPFLAGS += -Wreturn-type
 APP_CPPFLAGS += -Wno-multichar
 
 # 出力アーキテクチャ
-APP_ABI := armeabi-v7a x86
+APP_ABI := armeabi-v7a x86 arm64-v8a
 
 # STLライブラリ GNU-STLじゃないとリンクできない
 APP_STL := gnustl_shared

@@ -1,0 +1,22 @@
+com/serenegiant/opencvwithuvc/BuildConfig.java
+ com.serenegiant.opencvwithuvc.BuildConfig
+com/serenegiant/opencvwithuvc/MainActivity.java
+ com.serenegiant.opencvwithuvc.MainActivity
+ com.serenegiant.opencvwithuvc.MainActivity$1
+ com.serenegiant.opencvwithuvc.MainActivity$10
+ com.serenegiant.opencvwithuvc.MainActivity$2
+ com.serenegiant.opencvwithuvc.MainActivity$3
+ com.serenegiant.opencvwithuvc.MainActivity$4
+ com.serenegiant.opencvwithuvc.MainActivity$5
+ com.serenegiant.opencvwithuvc.MainActivity$6
+ com.serenegiant.opencvwithuvc.MainActivity$7
+ com.serenegiant.opencvwithuvc.MainActivity$8
+ com.serenegiant.opencvwithuvc.MainActivity$8$1
+ com.serenegiant.opencvwithuvc.MainActivity$9
+ com.serenegiant.opencvwithuvc.MainActivity$9$1
+ com.serenegiant.opencvwithuvc.MainActivity$MyImageProcessorCallback
+ com.serenegiant.opencvwithuvc.MainActivity$MyImageProcessorCallback$1
+ com.serenegiant.opencvwithuvc.MainActivity$MyImageProcessorCallback$2
+ com.serenegiant.opencvwithuvc.MainActivity$MyImageProcessorCallback$3
+ com.serenegiant.opencvwithuvc.MainActivity$MyImageProcessorCallback$4
+ com.serenegiant.opencvwithuvc.MainActivity$TurnDirection
