@@ -80,7 +80,10 @@ public final class MainActivity extends BaseActivity
 	
 	private static final boolean DEBUG = true;	// TODO set false on release
 	private static final String TAG = "MainActivity";
-
+	private final Scalar grey = new Scalar(100, 120, 100);
+	private final Scalar white = new Scalar(255, 255, 255);
+	private SeekBar thresholdSeekbar;
+	private int seekbarThreshold=210;
 	/**
 	 * set true if you want to record movie using MediaSurfaceEncoder
 	 * (writing frame data into Surface camera from MediaCodec
@@ -194,11 +197,33 @@ public final class MainActivity extends BaseActivity
 		});
 
 
+		thresholdSeekbar = findViewById(R.id.setting_seekbar);
+		thresholdSeekbar.setOnSeekBarChangeListener(mOnSeekBarChangeListener);
 
 		mUSBMonitor = new USBMonitor(this, mOnDeviceConnectListener);
 		mCameraHandler = UVCCameraHandlerMultiSurface.createHandler(this, mUVCCameraView,
 			USE_SURFACE_ENCODER ? 0 : 1, PREVIEW_WIDTH, PREVIEW_HEIGHT, PREVIEW_MODE);
 	}
+
+	private final SeekBar.OnSeekBarChangeListener mOnSeekBarChangeListener
+			= new SeekBar.OnSeekBarChangeListener() {
+
+		@Override
+		public void onProgressChanged(final SeekBar seekBar,
+									  final int progress, final boolean fromUser) {
+			seekbarThreshold=seekBar.getProgress();
+		}
+
+		@Override
+		public void onStartTrackingTouch(final SeekBar seekBar) {
+		}
+
+		@Override
+		public void onStopTrackingTouch(final SeekBar seekBar) {
+
+		}	// if (active)
+
+	};
 
 	@Override
 	protected void onStart() {
@@ -436,26 +461,6 @@ public final class MainActivity extends BaseActivity
 	}
 
 //================================================================================
-	private boolean isActive() {
-		return mCameraHandler != null && mCameraHandler.isOpened();
-	}
-
-	private boolean checkSupportFlag(final int flag) {
-		return mCameraHandler != null && mCameraHandler.checkSupportFlag(flag);
-	}
-
-	private int getValue(final int flag) {
-		return mCameraHandler != null ? mCameraHandler.getValue(flag) : 0;
-	}
-
-	private int setValue(final int flag, final int value) {
-		return mCameraHandler != null ? mCameraHandler.setValue(flag, value) : 0;
-	}
-
-	private int resetValue(final int flag) {
-		return mCameraHandler != null ? mCameraHandler.resetValue(flag) : 0;
-	}
-
 
 
 
@@ -560,8 +565,8 @@ public final class MainActivity extends BaseActivity
 			height = processing_height;
 		}
 		public void drawCrosshair(Mat img ){
-			Imgproc.line(img,new Point(width/2-20,height/2), new Point(width/2+20,height/2),new Scalar(120,100,100), 1);
-			Imgproc.line(img,new Point(width/2,height/2-20), new Point(width/2,height/2+20),new Scalar(120,100,100), 1);
+			Imgproc.line(img,new Point(width/2-20,height/2), new Point(width/2+20,height/2),grey, 1);
+			Imgproc.line(img,new Point(width/2,height/2-20), new Point(width/2,height/2+20),grey, 1);
 		}
 		public double getSlope(Point p1, Point p2){
 			return ((double)(p2.y - p1.y) / (double)(p2.x-p1.x));
@@ -603,6 +608,12 @@ public final class MainActivity extends BaseActivity
 		public double getDistance(Point point1, Point point2){
 			return Math.sqrt(Math.pow(point1.x-point2.x,2)+Math.pow(point1.y-point2.y,2));
 		}
+		public double getDistanceX(Point point1, Point point2){
+			return Math.abs(point2.x-point1.x);
+		}
+		public double getDistanceY(Point point1, Point point2){
+			return Math.abs(point2.y-point1.y);
+		}
 		public void drawBoundingBox(Rect boundingBox, Mat img){
 
 			Point pt1=new Point();
@@ -612,7 +623,7 @@ public final class MainActivity extends BaseActivity
 			pt2.x = boundingBox.x + boundingBox.width;
 			pt2.y = boundingBox.y + boundingBox.height;
 
-			Imgproc.rectangle(img, pt1,pt2, new Scalar(120,100,100),2);
+			Imgproc.rectangle(img, pt1,pt2, new Scalar(255,255,255),2);
 		}
 		@Override
 		public void onFrame(final ByteBuffer frame) {
@@ -629,7 +640,7 @@ public final class MainActivity extends BaseActivity
 				Mat blurred = new Mat();
 				Imgproc.GaussianBlur(gray, blurred, new Size(11, 11), 0);
 				Mat threshold = new Mat();
-				Imgproc.threshold(blurred, threshold, 210, 255, Imgproc.THRESH_BINARY);
+				Imgproc.threshold(blurred, threshold, seekbarThreshold, 255, Imgproc.THRESH_BINARY);
 
 
 				Mat hierarchy = new Mat();
@@ -656,7 +667,7 @@ public final class MainActivity extends BaseActivity
 						}
 					});
 				} else if (contours.size() == 2) {
-					Scalar grey = new Scalar(100, 120, 100);
+
 					String text = "";
 					//center of camera
 					Point center = new Point(width / 2, height / 2);
@@ -684,15 +695,19 @@ public final class MainActivity extends BaseActivity
 						//if horizontal
 						if (turnDirection.degrees < 5) {
 							Point dest = new Point(midPoint.x, midPoint.y + 100);
-							double distance = getDistance(center, midPoint);
-							Imgproc.arrowedLine(threshold, center, dest, grey);
-							text = "Position";
-							if (Math.abs(distance - 100) < 20) {
+							Imgproc.circle(threshold,dest,5,white,2);
+							double distanceY = getDistanceY(center, dest);
+							double distanceX=getDistanceX(center,dest);
+							Imgproc.arrowedLine(threshold, center, dest, white);
+
+							if (distanceY< 20&&distanceX<10) {
 								//draw rectangles as right angle symbols
 								Imgproc.rectangle(threshold, midPoint, new Point(midPoint.x + 10, midPoint.y +10), grey);
 								Imgproc.rectangle(threshold, midPoint, new Point(midPoint.x - 10, midPoint.y +10), grey);
 								//done positioning - ready to fly to right altitude
 								text = "Ready to Descend";
+							}else{
+								text = "Position";
 							}
 						} else {
 							text = String.format("Turn %.2f",turnDirection.degrees) + (turnDirection.turnRight ? " CW" : " CCW");
@@ -795,6 +810,8 @@ public final class MainActivity extends BaseActivity
 						Log.w(TAG, e);
 					}
 				}
+			}else{
+				setTextNull();
 			}
 		}
 

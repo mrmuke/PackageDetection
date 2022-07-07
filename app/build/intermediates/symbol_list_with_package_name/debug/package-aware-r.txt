@@ -1543,6 +1543,7 @@ id seekbar_value_label
 id select1
 id select2
 id select_dialog_listview
+id setting_seekbar
 id shortcut
 id showCustom
 id showHome

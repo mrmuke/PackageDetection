@@ -50,6 +50,7 @@
 		android:layout_alignTop="@+id/camera_view"
 		android:src="@drawable/border"/>
 
+
 	<SurfaceView
 		android:id="@+id/result_view"
 		android:layout_width="320dp"
@@ -59,7 +60,26 @@
 		android:layout_marginRight="5dp"
 		android:layout_marginBottom="5dp"
 		android:visibility="invisible" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/camera_view"
+		android:layout_marginHorizontal="10dp"
+		android:layout_marginTop="20dp"
+		>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Brightness Threshold"
+			android:textColor="@color/WHITE"></TextView>
+	<SeekBar
+		android:id="@+id/setting_seekbar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
 
+		android:max="255"
+		android:progress="210"
+		/></LinearLayout>
 
 	<ToggleButton
 		android:id="@+id/camera_button"
@@ -127,9 +147,9 @@
 		android:id="@+id/value_layout"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:layout_centerInParent="true"
 		android:layout_alignLeft="@id/camera_view"
 		android:layout_alignRight="@id/camera_view"
+		android:layout_centerInParent="true"
 		android:background="#22ffffff"
 		android:visibility="invisible">
 

@@ -1,4 +1,4 @@
-#Fri Jul 01 18:56:04 CDT 2022
+#Thu Jul 07 16:06:13 CDT 2022
 base.0=/Users/mrmuke/coding/OpenCVwithUVC/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

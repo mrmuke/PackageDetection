@@ -4,6 +4,8 @@ com/serenegiant/opencvwithuvc/MainActivity.java
  com.serenegiant.opencvwithuvc.MainActivity
  com.serenegiant.opencvwithuvc.MainActivity$1
  com.serenegiant.opencvwithuvc.MainActivity$10
+ com.serenegiant.opencvwithuvc.MainActivity$10$1
+ com.serenegiant.opencvwithuvc.MainActivity$11
  com.serenegiant.opencvwithuvc.MainActivity$2
  com.serenegiant.opencvwithuvc.MainActivity$3
  com.serenegiant.opencvwithuvc.MainActivity$4
@@ -11,7 +13,6 @@ com/serenegiant/opencvwithuvc/MainActivity.java
  com.serenegiant.opencvwithuvc.MainActivity$6
  com.serenegiant.opencvwithuvc.MainActivity$7
  com.serenegiant.opencvwithuvc.MainActivity$8
- com.serenegiant.opencvwithuvc.MainActivity$8$1
  com.serenegiant.opencvwithuvc.MainActivity$9
  com.serenegiant.opencvwithuvc.MainActivity$9$1
  com.serenegiant.opencvwithuvc.MainActivity$MyImageProcessorCallback
